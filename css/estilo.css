@@ -1,0 +1,96 @@
+@font-face{
+	font-family: Inria Sans;
+	src: url("../fontes/InriaSans-Regular.ttf");
+}
+
+@font-face{
+	font-family: ABeeZee;
+	src: url("../fontes/ABeeZee-Regular.ttf");
+}
+
+@font-face{
+	font-family: Itim;
+	src: url("../fontes/Itim-Regular.ttf");
+}
+
+body{
+	margin: 0;
+	background-color: #d6ffc8;
+}
+
+.cabeca{
+	background-color: #4db882;
+	height: 30%;
+
+}
+
+.inriasans{
+	font-family: Inria Sans;
+	font-weight: bold;
+}
+
+.inriasans-02{
+	font-family: Inria Sans;
+}
+
+.itim{
+	font-family: Itim;
+}
+
+#logo{
+	margin-left: 5vh;
+	margin-right: 50%;
+	width: auto;
+	height: 150px; 
+}
+
+#menu{
+	margin-top: -6vh;
+	height: 75px;
+	width: auto;
+}
+
+#hq-cima{
+	margin-top: ;
+	margin-bottom: 3vh;
+}
+
+#hq-meio{
+	margin-bottom: 3vh;
+}
+
+#hq-baixo{
+	margin-bottom: 10vh;
+}
+
+#textos{
+	margin-top: 10vh;
+	margin-bottom: 10vh;
+}
+
+.rodape{
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	margin-top: 5%;
+	height: 90px;
+	background-color: #4db882;
+	color: black;
+}
+
+#linha-01{
+	margin: 0;
+}
+
+#linha-02{
+	margin: 0;
+}
+
+.center{
+	text-align: center;
+}
+
+p{
+	font-size: 20px;
+}
